@@ -7,7 +7,7 @@ while x <= l:
     x += 1
 
 
-def selection(a_list):
+def selectionSort(a_list):
     for i in range(len(a_list)):
         min = a_list[i]
         for j in range(i+1, len(a_list)):
@@ -17,4 +17,4 @@ def selection(a_list):
     print(a_list)
 
 
-selection(a_list)
+selectionSort(a_list)
