@@ -1,4 +1,4 @@
-# Bubble sort - taking a list item comparing with the next, thus running n number of pass until list get sorted.
+# Bubble sort - taking a list item comparing with the next swappning if needed, thus running n number of pass until list get sorted.
 
 x = 0
 a_list = []
