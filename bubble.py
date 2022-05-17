@@ -1,5 +1,3 @@
-
-
 x = 0
 a_list = []
 l = int(input('list length: '))
