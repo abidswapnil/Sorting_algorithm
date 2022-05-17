@@ -7,7 +7,7 @@ while x <= l:
     x += 1
 
 
-def bubble(a_list):
+def bubbleSort(a_list):
     for i in range(len(a_list)):
         for j in range(i + 1, len(a_list)):
             if a_list[i] > a_list[j]:
@@ -15,4 +15,4 @@ def bubble(a_list):
     print(a_list)
 
 
-bubble(a_list)
+bubbleSort(a_list)
